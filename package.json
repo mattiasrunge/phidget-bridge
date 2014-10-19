@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "Mattias Runge",
+    "email": "mattias@runge.se"
+  },
+  "name": "phidget-bridge",
+  "description": "Node.js bindings for the Phidget Bridge API.",
+  "keywords": [
+    "phidget",
+    "bridge"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattiasrunge/phidget-bridge.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/mattiasrunge/phidget-bridge/issues"
+  },
+  "homepage": "https://github.com/mattiasrunge/phidget-bridge"
+}
